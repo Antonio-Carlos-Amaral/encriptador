@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+
+<html lang="pt-BR">
+    <title>Oracle ONE Challange Encriptador</title>
+    <head>
+        <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+        <div class="container" id="background">
+            <div class="main">
+                <div class="top">
+                    <img src="alura.png" alt="Alura" class="logo-alura">
+                    <p> Digite seu texto para criptografar ou descriptografar </p>
+                    <textarea class="input" title="Coloque o texto aqui" type="text" id="input" placeholder="Digite seu texto aqui"></textarea>
+                </div> 
+                    <img src="Frame1.png" alt="Alura" id="notfound.img">                                   
+                <div class="btn-main">
+                    <button class="btn" id="encrypt">Encriptar</button>
+                    <button class="btn" id="decrypt">Desencriptar</button>
+                </div>
+                <div class="credits">
+                    <p id="developer">Desenvolvido por<strong>:  Antonio Carlos Amaral (carlos_ambr@yahoo.com.br) </strong></br>
+                    <a href="https://www.linkedin.com/in/antoniocarlosamaral/" rel="noopener" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+            <div class="actions">
+                <div class="outputs">
+                    <div class="notfound" id="notfound">
+                        <img src="banner.svg" alt="" id="notfound-img">
+                        <p><b>Nenhuma mensagem encontrada!</b></p>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                    <p id="output"></textarea>
+                    <div class="btn-actions" id="btn-actions">
+                        <p id="copy-alert"></p>
+                        <button class="btn" id="copy">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <script 
+      src="encrypter.js">          
+      </script>
+    </body>
+</html>
